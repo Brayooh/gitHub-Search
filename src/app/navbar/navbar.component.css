@@ -1,0 +1,13 @@
+#nav{
+background-color:transparent;
+background-size: contain;
+}
+
+#nav a:hover{
+    background-color: rgba(220, 226, 245, 0.356);
+}
+
+.nav-items{
+    margin-left: 75%;
+    background-size: contain;
+}

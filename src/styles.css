@@ -1,0 +1,6 @@
+@import "~bootstrap/dist/css/bootstrap.css";
+
+body{
+    background-image: url(https://miro.medium.com/max/4200/1*MKK4Y6Vg-6LjImKbMm9X6Q.png);
+    background-size: cover;
+}

@@ -1,0 +1,43 @@
+<!-- <br><br>
+<div class="container-fluid">
+    <form class="form-group" style="text-align: center" *ngIf='hideForms'>
+        <input type="text" class="form-control" style="border: 1;border-color: rgba(55, 71, 144, 0.548); margin-left: 15%; background-color: rgba(230, 230, 250, 0.109); width: 70%;" placeholder="Search Github username" [(ngModel)]="username" name="username">
+        <button (click)=showDetail() (click)=hideForm() class="btn btn-primary" style="font-size: 15px" (click)=getRepo() (click)=getUser()>Search</button>
+    </form>
+    <br>
+
+    <div class="row"  *ngIf='showDetails'>
+        <div style="text-align: center;" class="col-md-5">
+            <img src="{{user.avatar_url}}" class="rounded-circle z-depth-2" style="width:30vh;"
+                data-holder-rendered="true" alt=""> <br> <br>
+
+            <p id="badge">
+                <span>Public Repositories: {{user.public_repos}}</span> <br>
+                <span>Following: {{user.following}}</span><br>
+                <span>Followers: {{user.followers}}</span><br>
+            </p>
+
+            <h5>
+                Username: <strong>{{user.login}}</strong>
+            </h5>
+            <h5> Bio Data: <strong>{{user.bio|upperCase}}</strong></h5>
+            <h5 appTextColourChange> Member Since: <strong>{{user.created_at|date}}</strong></h5>
+            <p style="font-size: 22px;"><a href="{{user.html_url}}" target="_blank" class="btn btn-info">View Profile on
+                Github</a></p>
+        </div>
+
+        <div class="col-md-7">
+            <div class="card-heading">
+                <h4 style="color: whitesmoke;" class="card-title text-center diff">Public Repositories for <strong>{{user.login}}</strong></h4>
+            </div>
+            <div class="card-body">
+
+                <div style="width: 100vh; margin-left: 10vh; background-color: rgba(123, 126, 146, 0.164); color: rgb(197, 197, 197)" id="cards" class="card card-secondary" *ngFor='let rep of repo'>
+                    <p  class="clearfix ">Repository Name: <strong>{{rep.name}}</strong><a href="{{rep.html_url}}"
+                            target="_blank" class="btn btn-outline-primary btn-sm float-right" style="font-size: 13px">View Repository on Github</a></p>
+                    <p>{{rep.description}}</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div> -->

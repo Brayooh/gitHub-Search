@@ -1,0 +1,16 @@
+#cards{
+    background-color: rgba(104, 133, 170, 0.096);
+}
+::placeholder{
+    color: aliceblue;
+}
+#badge{
+    font-size: 20px;
+    vertical-align: top;
+    top: 10px; 
+    position: relative;
+    color: whitesmoke;
+}
+h5{
+    color: whitesmoke;
+}
