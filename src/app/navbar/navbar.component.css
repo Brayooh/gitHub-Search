@@ -2,12 +2,14 @@
 background-color:transparent;
 background-size: contain;
 }
-
+#nav{
+    font-family: 'Prompt', sans-serif;
+}
 #nav a:hover{
     background-color: rgba(220, 226, 245, 0.356);
 }
 
 .nav-items{
-    margin-left: 75%;
+    margin-left: 68%;
     background-size: contain;
 }
