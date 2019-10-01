@@ -13,6 +13,8 @@ import { PageErrorComponent } from './page-error/page-error.component';
 import { UpperCasePipe } from './upper-case.pipe';
 import { TextColorChangeDirective } from './text-color-change.directive';
 import { NavbarComponent } from './navbar/navbar.component';
+import { NgProgressModule } from '@ngx-progressbar/core';
+import { NgProgressHttpClientModule } from '@ngx-progressbar/http-client';
 @NgModule({
   declarations: [
     AppComponent,
@@ -31,7 +33,9 @@ import { NavbarComponent } from './navbar/navbar.component';
     AppRoutingModule,
     HttpClientModule,
     FormsModule,
-    RoutingModule
+    RoutingModule,
+    NgProgressModule.forRoot(),
+    NgProgressHttpClientModule
   ],
   providers: [ProfileService],
   bootstrap: [AppComponent]
