@@ -42,20 +42,20 @@ export class ProfileComponent implements OnInit {
    return promise
   }
 
-  // getUser(){
-  //   let promise=new Promise((resolve,reject)=>{
-  //     this.profService.getUser(this.username).toPromise().then(response=>{
-  //       this.user=response
+  getUser(){
+    let promise=new Promise((resolve,reject)=>{
+      this.profService.getUser(this.username).toPromise().then(response=>{
+        this.user=response
         
-  //       resolve()
-  //     },
-  //     error=>{
-  //       reject(error)
-  //     }
-  //     )
-  //   })
-  //  return promise
-  // }
+        resolve()
+      },
+      error=>{
+        reject(error)
+      }
+      )
+    })
+   return promise
+  }
 
 
   constructor(private httpClient:HttpClient,private profService:ProfileService) { 
