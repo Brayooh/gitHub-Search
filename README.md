@@ -3,7 +3,7 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
 ## Author
-[Ngigi Xystus ](https://xystus45.github.io/Github-search/)
+[Ngigi Xystus ](https://github.com/Brayooh/)
 
 ## Project Description
 This is an Angular website where users may enter a GitHub username into a form, submit it, and see names and descriptions of their public repositories. A person can also look for their repositories.
@@ -12,7 +12,7 @@ This is an Angular website where users may enter a GitHub username into a form, 
 Use the following commands to use this project.
 1. Install node js and npm
 2. Install Angular Cli
-3. git clone https://github.com/xystus45/Github-Search.git
+3. git clone https://github.com/brayooh/gitHub-Search.git
 4. cd Github-Search
 5. atom .  //For those using atom text editor.
 6. code .  //For those using Visual Studio editor.
