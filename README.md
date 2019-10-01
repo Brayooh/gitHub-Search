@@ -3,7 +3,11 @@
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
 
 ## Author
+<<<<<<< HEAD
 [ Brian Ndichu ](https://github.com/Brayooh/)
+=======
+[Brian Ndichu ](https://github.com/Brayooh/)
+>>>>>>> 00ac09371402f5dd2de5e288b233a7fb34c643ac
 
 ## Project Description
 This is an Angular website where users may enter a GitHub username into a form, submit it, and see names and descriptions of their public repositories. A person can also look for their repositories.
@@ -50,7 +54,7 @@ The different technologies that were used to develop this program include:
 
 
 ### Link to live site
-Here is a link to the live site https://xystus45.github.io/Github-search/
+Here is a link to the live site https://brayooh.github.io/gitHub-Search/
 
 
 ## Running unit tests
