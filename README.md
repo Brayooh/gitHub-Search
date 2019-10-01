@@ -50,7 +50,7 @@ The different technologies that were used to develop this program include:
 
 
 ### Link to live site
-Here is a link to the live site https://xystus45.github.io/Github-search/
+Here is a link to the live site https://brayooh.github.io/gitHub-Search/
 
 
 ## Running unit tests
