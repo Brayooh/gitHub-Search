@@ -4,7 +4,7 @@ import {User} from '../user';
 import { environment } from '../../environments/environment';
 import { Repository } from '../repository';
 import { Observable} from 'rxjs'
- ,
+
  
 @Injectable()
 export class ProfileService {
