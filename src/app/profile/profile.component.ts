@@ -10,57 +10,57 @@ import {HttpClient} from '@angular/common/http';
 export class ProfileComponent implements OnInit {
 
   
-//   user:any=[];
+  user:any=[];
   
-//   repo:any=[];
-//   username:string=''
+  repo:any=[];
+  username:string=''
   
-//   hideForms: boolean=true;
-//   hideForm(){
-//     this.hideForms=!this.hideForms
-//   }
+  hideForms: boolean=true;
+  hideForm(){
+    this.hideForms=!this.hideForms
+  }
 
-//  showDetails: boolean=false;
-//     showDetail(){
-//       this.showDetails=!this.showDetails
-//     }
+ showDetails: boolean=false;
+    showDetail(){
+      this.showDetails=!this.showDetails
+    }
 
 
 
-//   getRepo(){
-//     let promise=new Promise((resolve,reject)=>{
-//       this.profService.getRepo(this.username).toPromise().then(response=>{
-//         this.repo=response
+  getRepo(){
+    let promise=new Promise((resolve,reject)=>{
+      this.profService.getRepo(this.username).toPromise().then(response=>{
+        this.repo=response
         
-//         resolve()
-//       },
-//       error=>{
-//         reject(error)
-//       }
-//       )
-//     })
-//    return promise
-//   }
+        resolve()
+      },
+      error=>{
+        reject(error)
+      }
+      )
+    })
+   return promise
+  }
 
-//   getUser(){
-//     let promise=new Promise((resolve,reject)=>{
-//       this.profService.getUser(this.username).toPromise().then(response=>{
-//         this.user=response
+  getUser(){
+    let promise=new Promise((resolve,reject)=>{
+      this.profService.getUser(this.username).toPromise().then(response=>{
+        this.user=response
         
-//         resolve()
-//       },
-//       error=>{
-//         reject(error)
-//       }
-//       )
-//     })
-//    return promise
-//   }
+        resolve()
+      },
+      error=>{
+        reject(error)
+      }
+      )
+    })
+   return promise
+  }
 
 
-//   constructor(private httpClient:HttpClient,private profService:ProfileService) { 
+  constructor(private httpClient:HttpClient,private profService:ProfileService) { 
     
-//   }
+  }
 
   ngOnInit() {
    
